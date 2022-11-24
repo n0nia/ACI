@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Algorithms">
+      <UniqueIdentifier>{8aa95e12-f10e-4b46-b457-3aedf3975003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\in">
+      <UniqueIdentifier>{3a8e2cfb-a586-49c7-95e1-36a03e7c6ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UtilsAlgorithms">
+      <UniqueIdentifier>{5ca9f5b5-51ff-4376-9d97-04b28917a60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{8fd2c721-8567-474d-8acf-45adf51e6766}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ACI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectionProfiling.cpp">
+      <Filter>Source Files\UtilsAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Hough.cpp">
+      <Filter>Source Files\UtilsAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="FourierTransform.cpp">
+      <Filter>Source Files\UtilsAlgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProjectionProfiling.h">
+      <Filter>Source Files\UtilsAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Hough.h">
+      <Filter>Source Files\UtilsAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="FourierTransform.h">
+      <Filter>Source Files\UtilsAlgorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

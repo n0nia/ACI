@@ -1,0 +1,77 @@
+﻿  Utils.cpp
+E:\master\An2\ACI\Proiect\ACI\ACI\Utils.cpp(10,13): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+E:\master\An2\ACI\Proiect\ACI\ACI\Utils.cpp(75,63): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+E:\master\An2\ACI\Proiect\ACI\ACI\Utils.cpp(78,48): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xutility(4036,18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(1053): message : see reference to function template instantiation '_OutIt *std::_Copy_unchecked<_Iter,int*>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=int *,
+              _Iter=float *,
+              _InIt=float *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(1067): message : see reference to function template instantiation 'void std::vector<int,std::allocator<int>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=float *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(1067): message : see reference to function template instantiation 'void std::vector<int,std::allocator<int>>::_Assign_range<_Iter>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Iter=float *
+          ]
+E:\master\An2\ACI\Proiect\ACI\ACI\Utils.cpp(33): message : see reference to function template instantiation 'void std::vector<int,std::allocator<int>>::assign<float*,0>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Iter=float *
+          ]
+E:\master\An2\ACI\Proiect\ACI\ACI\Utils.cpp(33): message : see reference to function template instantiation 'void std::vector<int,std::allocator<int>>::assign<float*,0>(_Iter,_Iter)' being compiled
+          with
+          [
+              _Iter=float *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(680,47): warning C4244: 'initializing': conversion from 'float' to '_Objty', possible loss of data
+          with
+          [
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1651): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&>(_Alloc &,_Objty *const ,float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1652): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float&>(_Alloc &,_Objty *const ,float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1691): message : see reference to function template instantiation 'void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<float&>(float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(1691): message : see reference to function template instantiation 'void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<float&>(float &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(1045): message : see reference to function template instantiation 'int *std::_Uninitialized_copy<_Iter,std::allocator<int>>(const _InIt,const _InIt,int *,_Alloc &)' being compiled
+          with
+          [
+              _Iter=float *,
+              _InIt=float *,
+              _Alloc=std::allocator<int>
+          ]
+  ACI.vcxproj -> E:\master\An2\ACI\Proiect\ACI\x64\Debug\ACI.exe
